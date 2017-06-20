@@ -1,0 +1,3 @@
+[submodule "myoFPGA"]
+	path = myoFPGA
+	url = https://github.com/Roboy/myoFPGA
