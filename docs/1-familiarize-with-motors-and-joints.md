@@ -1,10 +1,4 @@
-# 1. Step: Familiarize with Joints and motors
-
-It is impossible to detect without the knowledge of the joints and motors. Therefore, the first step is
-to familiarize with the motors and angles. Therefore, I am focusing on the PaBiLegs, which are legs
-with 8 motors and 4 joints.
-
-## Getting started with the PaBiLegs
+# Getting started with the PaBiLegs
 
 The setup for the PaBiLegs is quite straightforward. Nevertheless, I wrote a tutorial, which helps
 other users to get started with the PaBiLegs in a fast and efficient way:
@@ -19,12 +13,12 @@ The problem is now that you can control the robot over the UI but we have no ide
 code level. Therefore, we want to write our own program, which sends first motors commands to the robot. One good use-case is to make the Roboy dance because
 in July, there is a presentation at Google and Roboy should show there some dance moves. First of all, we will implement the following:
 
- - Add a button "Start dance" to the UI
+ - Add a button "Start dance" to the UI (**TODO: add UI tool that other people can use**)
  - Trigger a method, which makes the PaBiLegs move to the left, middle, right and back to the middle
 
 ### Add a button to the UI
 
-First of all, I opened the [UI XML file](https://github.com/Roboy/myoFPGA/blob/5de1e1751091c34a3da620666ded3e0603e280d3/myoFPGA/src/interface/ui/main_window.ui) to your favorite UI program and add a button. After that we create a method `startDance1` to our MainWindow class and interface.
+First of all, open the [UI XML file](https://github.com/Roboy/myoFPGA/blob/5de1e1751091c34a3da620666ded3e0603e280d3/myoFPGA/src/interface/ui/main_window.ui) to your favorite UI program and add a button. After that we create a method `startDance1` to our MainWindow class and interface.
 This method first of all initializes a variable `t0` with the current timestamp and a second variable `t1` with an dummy timestamp. Finally, the current step is set to `0`.
 
 ```c++
