@@ -44,7 +44,7 @@ Therefore, the tasks for this semester are:
 
 1. [Familiarize with motors and joints](./1-familiarize-with-motors-and-joints.md)
 2. [Define possible motor and joint states depending on the starting points](./2-define-possible-motor-and-joint-states.md)
-3. Create ROS topic to publish the error messages
+3. [Create ROS topic to publish the error messages](./3-define-ros-topic-for-error-messages.md)
 4. Define possible error patterns to detect more complex patterns
 5. Implement a mechanism to track these complex patterns
 6. Send these patterns over ROS
