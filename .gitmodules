@@ -1,3 +1,12 @@
 [submodule "myoFPGA"]
 	path = myoFPGA
 	url = https://github.com/Roboy/myoFPGA
+[submodule "roboy_system_notifications"]
+	path = roboy_system_notifications
+	url = https://github.com/CapChrisCap/roboy_system_notifications
+[submodule "roboy_error_detection"]
+	path = roboy_error_detection
+	url = https://github.com/CapChrisCap/roboy_error_detection
+[submodule "roboy_communication"]
+	path = roboy_communication
+	url = https://github.com/CapChrisCap/roboy_communication
