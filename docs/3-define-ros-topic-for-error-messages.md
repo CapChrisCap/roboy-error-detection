@@ -26,13 +26,13 @@ Now the subscriber knows, that the motor one is dead.
 
 ### Installation
 
-1. Add the package `roboy_system_notifications` (https://github.com/CapChrisCap/roboy_system_notifications) to your CMakeFile
-2. Implement the class like shown in the main example: https://github.com/CapChrisCap/roboy_system_notifications/blob/master/src/main.cpp
+1. Add the package `roboy_system_notifications` ([https://github.com/CapChrisCap/roboy_system_notifications](https://github.com/CapChrisCap/roboy_system_notifications) to your CMakeFile
+2. Implement the class like shown in the main example: [https://github.com/CapChrisCap/roboy_system_notifications/blob/master/src/main.cpp](https://github.com/CapChrisCap/roboy_system_notifications)
 
 ### ROS Topic information
 
-Message: https://github.com/CapChrisCap/roboy_communication/blob/feature/error-detection-msgs/roboy_communication_control/msg/SystemNotification.msg
-List of error codes: https://github.com/CapChrisCap/roboy_communication/blob/feature/error-detection-msgs/middleware/include/common_utilities/CommonDefinitions.h#L16
+Message: [https://github.com/CapChrisCap/roboy_communication/blob/feature/error-detection-msgs/roboy_communication_control/msg/SystemNotification.msg](https://github.com/CapChrisCap/roboy_communication/blob/feature/error-detection-msgs/roboy_communication_control/msg/SystemNotification.msg)
+List of error codes: [https://github.com/CapChrisCap/roboy_communication/blob/feature/error-detection-msgs/middleware/include/common_utilities/CommonDefinitions.h#L16](https://github.com/CapChrisCap/roboy_communication/blob/feature/error-detection-msgs/middleware/include/common_utilities/CommonDefinitions.h#L16)
 
 ### Limitations
 
@@ -52,7 +52,7 @@ the message if the motor is dead.
 
 ### Solution
 
-The package `roboy_error_detection` (https://github.com/CapChrisCap/roboy_error_detection) uses the 
+The package `roboy_error_detection` ([https://github.com/CapChrisCap/roboy_error_detection](https://github.com/CapChrisCap/roboy_error_detection)) uses the 
 `roboy_system_notifications` package to publish errors. The `roboy_error_detection` provides you an API to 
 subscribe to occurred errors (detected by patterns) in an easy way. 
 
@@ -76,3 +76,7 @@ receive it from the normal ROS topics of `roboy_system_notifications` (routes de
 
 > * motorId id of the motor, which should be observed
 > * logLevel message level of the published message, log levels are defined in 
+
+### Limitations
+
+The package was not yet tested and compiled and is not production ready. 

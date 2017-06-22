@@ -94,4 +94,4 @@ joint state is reached. That means that we store the target state in the UI and 
 At the moment, all the logic is in the UI. The problem is that this logic has to be extracted if you do not want to use the UI. Therefore, another next step is to
 extract it in an own controller and create a main program, which calls this functionality in a plain main program without UI and only the ROS running.
 
-Hint: Maybe use https://github.com/Roboy/roboy_controller/blob/dfc8c1d89dac11478820105cd516b400abe9d59d/src/JointAngleController.cpp
+Hint: Maybe use [https://github.com/Roboy/roboy_controller/blob/dfc8c1d89dac11478820105cd516b400abe9d59d/src/JointAngleController.cpp](https://github.com/Roboy/roboy_controller/blob/dfc8c1d89dac11478820105cd516b400abe9d59d/src/JointAngleController.cpp)
