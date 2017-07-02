@@ -26,8 +26,8 @@ Now the subscriber knows, that the motor one is dead.
 
 ### Installation
 
-1. Add the package `roboy_system_notifications` ([https://github.com/CapChrisCap/roboy_system_notifications](https://github.com/CapChrisCap/roboy_system_notifications) to your CMakeFile
-2. Implement the class like shown in the main example: [https://github.com/CapChrisCap/roboy_system_notifications/blob/master/src/main.cpp](https://github.com/CapChrisCap/roboy_system_notifications)
+1. Add the package `roboy_system_notification` ([https://github.com/CapChrisCap/roboy_system_notification](https://github.com/CapChrisCap/roboy_system_notification) to your CMakeFile
+2. Implement the class like shown in the main example: [https://github.com/CapChrisCap/roboy_system_notification/blob/master/src/main.cpp](https://github.com/CapChrisCap/roboy_system_notification)
 
 ### ROS Topic information
 
@@ -53,7 +53,7 @@ the message if the motor is dead.
 ### Solution
 
 The package `roboy_error_detection` ([https://github.com/CapChrisCap/roboy_error_detection](https://github.com/CapChrisCap/roboy_error_detection)) uses the 
-`roboy_system_notifications` package to publish errors. The `roboy_error_detection` provides you an API to 
+`roboy_system_notification` package to publish errors. The `roboy_error_detection` provides you an API to 
 subscribe to occurred errors (detected by patterns) in an easy way. 
 
 ### Example
@@ -66,7 +66,7 @@ handler.listenForDeadMotor(MOTOR_ID);
 ```
 
 After that, a message will be published when the motor one is dead and you can 
-receive it from the normal ROS topics of `roboy_system_notifications` (routes depends of course on the log level). 
+receive it from the normal ROS topics of `roboy_system_notification` (routes depends of course on the log level). 
 
 ### API
 
