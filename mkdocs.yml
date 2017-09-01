@@ -1,1 +1,12 @@
 site_name: Roboy Error Detection Docs
+pages:
+  - "Problem statement": './index.md'
+  - "Tasks":
+    - "Notification Module":
+      - "Define notification messages": "./notification-module-messages.md"
+      - "Implement ROS notification module": "./notification-module.md"
+    - "Error Detection Module":
+      - "Familiarize with motors and joints": "./familiarize-with-motors-and-joints.md"
+      - "Define possible motor and joint states": "./define-possible-motor-and-joint-states.md"
+      - "Derive possible error patterns": './derive-possible-error-patterns.md'
+      - "Implement error patterns": './implement-error-patterns.md'

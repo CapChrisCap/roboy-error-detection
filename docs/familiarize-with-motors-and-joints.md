@@ -1,4 +1,9 @@
-# Getting started with the PaBiLegs
+# Familiarize with Roboy system
+
+Before implementing system specific modules, I have to familiarize with the Roboy system. A good use case to do this are the PaPiLegs, 
+which can be seen as one possible prototype for Roboy 2.0's legs. 
+
+## Familiarize with PaBiLegs
 
 The setup for the PaBiLegs is quite straightforward. Nevertheless, I wrote a tutorial, which helps
 other users to get started with the PaBiLegs in a fast and efficient way:
